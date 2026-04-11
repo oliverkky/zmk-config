@@ -1,0 +1,11 @@
+file_format: "1"
+id: flux_keyboard
+name: Flux Keyboard
+type: shield
+features:
+  - keys
+requires:
+  - pro_micro
+siblings:
+  - flux_keyboard_left
+  - flux_keyboard_right
