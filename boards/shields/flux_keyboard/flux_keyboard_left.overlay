@@ -6,7 +6,7 @@
 #include "flux_keyboard.dtsi"
 
 &kscan {
-    /* Columns run from innermost (D15) to outermost (D5). */
+    /* Column GPIO order: D15, D14, D10, D9, D8, D7, D6, D5. */
     col-gpios
         = <&pro_micro 15 GPIO_ACTIVE_HIGH>
         , <&pro_micro 14 GPIO_ACTIVE_HIGH>
